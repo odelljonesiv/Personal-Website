@@ -1,6 +1,8 @@
 import styled from 'styled-components';
-//color style.
+
+//primary color.
 const theme_blue = '9, 25, 46, 100';
+
 //primary styling of nav bar. floating nav.
 const Nav_Styled = styled.div`
 display: center;
@@ -11,7 +13,6 @@ max-width: 100vmax;
 padding-top: 1vw;
 color: white;
 background-color: rgba(235, 235, 235, .85);
-/* filter: drop-shadow(0px 8px 8px #000000); */
 `
 //styling of header title and welcome message.
 const Nav_Heading_Styled = styled.h1`
@@ -22,7 +23,6 @@ font-size: 3vh;
 font-family: 'Roboto', sans-serif;
 color: rgba(${theme_blue});
 font-weight: 900;
-
 `
 //styling of links from header.
 const Nav_List_Styled = styled.ul`
@@ -34,6 +34,7 @@ padding-bottom: 2vh;
 const Nav_List_Items_Styled = styled.li`
 @media (max-width: 570px) {
     font-size: 5.4vw;
+    padding: 1.8vw;
 }
 margin: 0 1rem;
 font-family: 'Roboto', sans-serif;
@@ -45,6 +46,7 @@ padding: .55vw;
 border-radius: 15px;
 filter: drop-shadow(0px 2px 4px #000000);
 `
+//styling for page links.
 const Nav_List_Anchor_Styled = styled.a`
   &:link{
     color: white;

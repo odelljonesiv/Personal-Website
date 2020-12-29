@@ -13,6 +13,8 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
 `
+
+//React App.
 function App() {
   return (
   <React.Fragment>

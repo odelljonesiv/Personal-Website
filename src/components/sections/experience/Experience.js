@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 import backgroundImg from '../../../images/colors.jpg';
+
+//primary color.
 const theme_blue = '9, 25, 46, 100';
+
 //primary style of experience page.
 const Experience_Styled = styled.div`
     background-image: url(${backgroundImg});
@@ -11,16 +14,17 @@ const Experience_Styled = styled.div`
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;  
-`;
-
+`
+//styling for main body of text.
 const Experience_Section_Styled = styled.section`
     align-self: center;
     text-align: center;
     color: white;
     top: 5vw;
     padding: 1vw;
-    @media (max-width: 400px) {
+    @media (max-width: 1024px) {
         font-size: 4.0vw;
+        width: 80vw;
     }
     font-size: 2.5vh;
     font-family: 'Roboto', sans-serif;
@@ -29,13 +33,21 @@ const Experience_Section_Styled = styled.section`
     border-radius:10px;
     background-color: rgba(${theme_blue});
     box-shadow: 0px 0px 15px 3px #000000;
-`;
-
+`
+//styling for names of jobs.
 const Experience_SubHeading_Styled = styled.h2`
+@media (max-width: 1024px) {
+    font-size: 2vh;
+    }
 font-size: 1.25vw;
 `
+//styling for paragraph font.
 const Experience_Paragraph_Styled = styled.p`
 line-height: 4.0vh;
+@media (max-width: 1024px) {
+    line-height: 5vw;
+    font-size: 4.3vw;
+    }
 text-align: left;
 `
 //main experience function of page.
