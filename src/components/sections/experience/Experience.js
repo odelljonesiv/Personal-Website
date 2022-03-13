@@ -56,26 +56,22 @@ function Experience(){
         <Experience_Styled id = "experience">
             <Experience_Section_Styled>
             <h1>Professional Experience</h1><br/>
-            <Experience_SubHeading_Styled>Undergraduate Research Internship - 
-                University Of Illinois at Chicago | Chicago, IL | 
-                October 2020 - Present
+            <Experience_SubHeading_Styled>
+                Data Engineering Intern - Orangutan Orchard 
             </Experience_SubHeading_Styled>
             <br/>
             <Experience_Paragraph_Styled>
-                Currently working in a research lab where I am learning to produce
-                data analyses for machine learning methods in low powered applications.
-                One of my tasks involved writing a Python program to format a new 
-                unique dataset for testing a  pre-trained TF model, and measuring the performance of the new dataset.
-                 I am able to work with TensorFlow, Python, and Google Colab frequently.
-
+                • Developing weather station data pipeline for collection of various meteorological attributes including rainfall, wind direction & speed, UV, temperature, pressure, and humidity.
+                • Data is collected in near-real time (10 second increments) and piped into a data lake on GCP (Google Cloud Storage).
             </Experience_Paragraph_Styled>
             <br/>
-            <Experience_SubHeading_Styled>Business Technology Internship - CSL Behring | Bradley, IL | May 2018</Experience_SubHeading_Styled>
+            <Experience_SubHeading_Styled>
+                Data Analytics and Policy Intern - Chicago Transit Authority
+            </Experience_SubHeading_Styled>
             <br/>
             <Experience_Paragraph_Styled>
-                I shadowed several professionals maintaining large scale production IT infrastructure, and
-                observed the functioning of: MES, SAP, and LMS tools in a pharmaceutical application.
-                I also participated in four meetings with data engineers concerning global data migration projects.
+                • Creating and maintaining responsive Power BI reports compiling data from over 7,000 employees.
+                • Building and maintaining internal ETL pipelines using Amazon Redshift, Oracle DB, and Python.
             </Experience_Paragraph_Styled>
             </Experience_Section_Styled>
         </Experience_Styled>

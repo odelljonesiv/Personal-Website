@@ -74,7 +74,7 @@ function Home(){
         <Home_Styled id = "home">  
             <Home_Section_Styled>
                 <Home_Section_text_Styled>
-                Hello! My name is Odell Jones and I am an undergraduate computer science major
+                Hello! My name is Odell Jones and I am an undergraduate Engineering Management major
                 at the University of Illinois at Chicago. This is my interactive portfolio where 
                 you can find and view all of my work. you may also find completed 
                 documentation for all of my personal projects, including the source for this website on my GitHub.

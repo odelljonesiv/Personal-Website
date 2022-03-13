@@ -66,7 +66,7 @@ const Nav_List_Anchor_Styled = styled.a`
 function Nav(){
     return(
         <Nav_Styled>
-            <Nav_Heading_Styled>Odell Jones | Computer Science Portfolio</Nav_Heading_Styled>
+            <Nav_Heading_Styled>Odell Jones | Technical Portfolio</Nav_Heading_Styled>
             <Nav_List_Styled>
             <Nav_List_Anchor_Styled href= "#home"><Nav_List_Items_Styled>Home</Nav_List_Items_Styled></Nav_List_Anchor_Styled>
             <Nav_List_Anchor_Styled href= "#experience"><Nav_List_Items_Styled>Experience</Nav_List_Items_Styled></Nav_List_Anchor_Styled>
