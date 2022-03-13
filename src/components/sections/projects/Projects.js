@@ -87,7 +87,7 @@ function Projects(){
             <br/>
 
             <Project_List_Anchor_Styled href = "">
-            <Projects_SubHeading_Styled>Expense Tracking Application</Projects_SubHeading_Styled>
+            <Projects_SubHeading_Styled>Orangutan Orchard documentation</Projects_SubHeading_Styled>
             </Project_List_Anchor_Styled>
             <p>C++</p>
 

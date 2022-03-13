@@ -62,7 +62,7 @@ function Experience(){
             <br/>
             <Experience_Paragraph_Styled>
                 • Developing weather station data pipeline for collection of various meteorological attributes including rainfall, wind direction & speed, UV, temperature, pressure, and humidity.
-                • Data is collected in near-real time (10 second increments) and piped into a data lake on GCP (Google Cloud Storage).
+                <br></br>• Data is collected in near-real time (10 second increments) and piped into a data lake on GCP (Google Cloud Storage).
             </Experience_Paragraph_Styled>
             <br/>
             <Experience_SubHeading_Styled>
@@ -71,7 +71,7 @@ function Experience(){
             <br/>
             <Experience_Paragraph_Styled>
                 • Creating and maintaining responsive Power BI reports compiling data from over 7,000 employees.
-                • Building and maintaining internal ETL pipelines using Amazon Redshift, Oracle DB, and Python.
+                <br></br>• Building and maintaining internal ETL pipelines using Amazon Redshift, Oracle DB, and Python.
             </Experience_Paragraph_Styled>
             </Experience_Section_Styled>
         </Experience_Styled>
